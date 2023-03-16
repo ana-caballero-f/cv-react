@@ -1,0 +1,13 @@
+.Proyectos {
+    /* border: solid rgb(235, 16, 16) 3px; */
+    background-color: rgb(248, 224, 6);
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
+
+.ImageProyecto {
+    border: solid black 3px;
+    height: 200px;
+    
+}

@@ -1,0 +1,17 @@
+.Education {
+    /* border: solid black 2px; */
+    background-color: rgb(248, 224, 6);   
+}
+.EducationContainer {
+    /* border: solid red 4px; */
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 5px 0 15px 0;
+    font-size: 1.4rem;
+}
+.EducacionTitulo {
+    margin: 0;
+    padding: 15px;
+}
+

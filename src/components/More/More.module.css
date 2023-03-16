@@ -1,0 +1,35 @@
+.More {
+    background-color: rgb(248, 224, 6);    
+}
+.MoreContainer {
+    /* border: solid rgb(76, 23, 201) 2px; */
+    display: flex;
+    width: 60%;
+    margin: auto;
+    text-align: left;
+    padding: 20px 0;
+    font-size: 1.5rem;    
+}
+.Cursos {
+    /* border: solid black 2px; */
+    margin-left: 70px;
+}
+
+.Idiomas {
+    /* border: solid black 2px; */
+    margin-left: 60px;
+    border-left: solid black 4px;
+    padding-left: 40px;
+    /* margin-left: 10px; */
+}
+
+.IdiomasParrafo {
+    /* border: solid rgb(201, 58, 58) 2px; */
+    margin: 7px;
+}
+
+.CursosParrafo {
+    /* border: solid rgb(219, 53, 53) 2px; */
+    margin: 7px;
+}
+

@@ -1,0 +1,36 @@
+.Galeria {
+    /* border: solid red 3px; */
+    background-color: rgb(248, 224, 6);
+    /* display: flex; */
+    padding: 0 100px 10px 100px;
+}
+
+.Swiper {
+    border: solid black 3px;
+}
+
+.SliderWrapper {
+    border: solid black 3px;
+}
+
+.ImageFotoGalery {
+    border: solid black 3px;
+    height:190px;
+    width: auto;
+    margin-right: 10px;   
+}
+
+
+
+
+
+/* SCROLL */
+/* .SliderWrapper {
+    display: flex;
+    overflow: auto;
+    scroll-behavior: smooth; 
+}
+
+.ImageFotoGalery:hover {
+    cursor: pointer;
+} */

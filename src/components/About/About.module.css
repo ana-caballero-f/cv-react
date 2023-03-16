@@ -1,0 +1,12 @@
+.About {
+    /* border: solid rgb(70, 104, 63) 3px; */
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.AboutItems {
+    margin: 0px;
+    text-align: center;
+    font-size: 1.2rem;
+}
