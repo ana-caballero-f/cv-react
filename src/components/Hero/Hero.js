@@ -10,9 +10,7 @@ const Hero = ( { hero }) => (
   <div className={styles.Hero}> 
     <div>
       <div className={styles.CardHero}>
-        {/* <div>
-          <img className={styles.ImageHero} src={hero.image} alt="" />
-        </div> */}
+        
         <div className={styles.TextHero}>
           <h2 className={styles.NombreHero}>{hero.name}</h2>
           <p className={styles.SubNombre}> Desarrolladora Front-End | Fotógrafa</p>
