@@ -5,15 +5,11 @@ import styles from './Galeria.module.css';
 
 
 /* importar swiper */
-import { Navigation, Pagination, A11y} from 'swiper';
+import { Navigation, A11y} from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react'
 
 import 'swiper/css';
-import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-// import 'swiper/css/zoom';
-
-
 
 
 const Galeria = ({galery}) => {
@@ -21,13 +17,12 @@ const Galeria = ({galery}) => {
     <div className={styles.Galeria}>
       <Swiper 
       style={{
-        "--swiper-navigation-color": "#000000",
+        "--swiper-navigation-color": "#999999",
         "--swiper-navigation-border": "solid black 2px"
-        // "--swiper-pagination-color": "#000000",
       }}
-          modules={[Navigation, Pagination, A11y]}
+          modules={[Navigation, A11y]}
           spaceBetween={55}
-          slidesPerView={5}
+          slidesPerView={4}
           navigation
           pagination={{ clickable: true, loop: true }}
        

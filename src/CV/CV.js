@@ -6,8 +6,7 @@ export const CV = {
         linkedin: "https://www.linkedin.com/in/ana-caballero-6956011a1/",
         gitHub: "https://github.com/ana-caballero-f",
         aboutMe: [
-            {info: "Propietaria de tres gatos"},
-            {info: "Enamorada de los paseos por la montaña"},
+            {info: "Puedes seguirme en:"},
         ],
     },
 
@@ -133,49 +132,47 @@ export const CV = {
 
     galery: [
         {
-        src: "/images/ANGELA-5.jpg",
+        src: "/images/carrusel-16.jpg",
         alt: "foto",
         },
 
         {
-        src: "/images/ANGELA-2.jpg",
+        src: "/images/carrusel-17.jpg",
         alt: "foto",
         },
 
         {
-        src: "/images/ANGELA-10.jpg",
+        src: "/images/carrusel-18.jpg",
         alt: "foto",
         },
 
         {
-        src: "/images/MANUEL-1.jpg",
+        src: "/images/carrusel-19.jpg",
         alt: "foto",
         },
 
         {
-        src: "/images/ABRIL-5.jpg",
+        src: "/images/carrusel-20.jpg",
         alt: "foto",
         },
 
         {
-        src: "/images/FIDEL-3.jpg",
+        src: "/images/carrusel-21.jpg",
         alt: "foto",
         },
 
         {
-        src: "/images/PAOLA-8.jpg",
+        src: "/images/carrusel-23.jpg",
         alt: "foto",
         },
-
         {
-        src: "/images/PAOLA-14.jpg",
+        src: "/images/carrusel-24.jpg",
         alt: "foto",
         },
-
         {
-        src: "/images/PAOLA-18.jpg",
+        src: "/images/carrusel-14.jpg",
         alt: "foto",
-        },
+        }
 ],
 }
 

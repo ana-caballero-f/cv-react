@@ -4,8 +4,7 @@ import styles from './Hero.module.css';
 import About from '../About/About';
 
 
-/* Se le pasa la información de la propiedad hero 
-del CV  por prop*/
+/* Pasar la información de la propiedad hero del CV  por prop*/
 const Hero = ( { hero }) => (
   <div className={styles.Hero}> 
     <div>
