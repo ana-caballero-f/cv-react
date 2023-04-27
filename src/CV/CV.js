@@ -71,7 +71,19 @@ export const CV = {
             name: "GitHub",
             src: "images/Octocat.png",
             alt: "logo"
-            },
+        },
+
+        {
+            name: "PhotoShop",
+            src: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Adobe_Photoshop_CC_icon.svg/1024px-Adobe_Photoshop_CC_icon.svg.png",
+            alt: "logo"
+        },
+
+        {
+            name: "Lightroom",
+            src: "https://fstoptraining.com/wp-content/uploads/2018/11/Adobe-Lightroom.png",
+            alt: "logo"
+        },
     ],
 
     cursos: [
@@ -109,6 +121,12 @@ export const CV = {
             name: "alemán",
             level:"B2",
             where: "E.O.I"
+        },
+
+        {
+            name: "español",
+            level:"Nativo",
+            
         },
 
     ],

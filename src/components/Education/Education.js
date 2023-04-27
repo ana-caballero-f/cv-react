@@ -8,7 +8,7 @@ const Education = ( {education}) => (
   <section className={styles.EducationContainer}>
     {education.map((item) => {
       return (
-        <div key={JSON.stringify(item)}>
+        <div className={styles.EducationItem} key={JSON.stringify(item)}>
           <p className={styles.EducacionTitulo}><b>{item.estudios}</b> - {item.escuela} | {item.year}</p>
         </div>
       )

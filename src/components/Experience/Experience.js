@@ -7,7 +7,7 @@ const Experience = ({experience}) => (
     <section className={styles.ExperienceContainer}>
    {experience.map((item) => {
     return (
-      <div key={JSON.stringify(item)}>
+      <div className={styles.ExperienceItem} key={JSON.stringify(item)}>
         <img className={styles.ImageLogo} src={item.src} alt={item.logo} />
         <p>{item.name}</p>
       </div>

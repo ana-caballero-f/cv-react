@@ -15,3 +15,26 @@
     padding: 15px;
 }
 
+
+
+.EducationItem {
+    animation: slide-write 1s cubic-bezier(0.1, 0.7, 1.0, 1.7) both;
+}
+
+
+
+.EducationItem:nth-child(1) {animation-delay: 1s;}
+.EducationItem:nth-child(2) {animation-delay: 1.5s;}
+.EducationItem:nth-child(3) {animation-delay: 2s;}
+
+@keyframes slide-write {
+    0% {
+      -webkit-transform: translateX(-500px);
+              transform: translateX(-500px);
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+

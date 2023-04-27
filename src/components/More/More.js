@@ -10,7 +10,7 @@ const More = ({cursos, languages}) => (
     <section className={styles.Cursos}>
     {cursos.map((item) => {
       return (
-        <div key={JSON.stringify(item)}>
+        <div className={styles.CursosItem} key={JSON.stringify(item)}>
           <p className={styles.CursosParrafo}><b>{item.name}</b> | {item.date}</p>
         </div>
       )
@@ -21,13 +21,11 @@ const More = ({cursos, languages}) => (
     <section className={styles.Idiomas}>
     {languages.map((item) => {
       return (
-        <div key={JSON.stringify(item)}>
-          <p className={styles.IdiomasParrafo}><b>Idioma:</b> {item.name} - Nivel: {item.level} | Escuela: {item.where}</p>
-          
+        <div className={styles.LanguagesItem} key={JSON.stringify(item)}>
+          <p className={styles.IdiomasParrafo}><b>Idioma:</b> {item.name} - Nivel: {item.level}</p> 
         </div>
       )
     })}
-    <p className={styles.IdiomasParrafo}><b>Idioma:</b> español - Nivel: nativo</p>
     </section>
   </section>
   </div>

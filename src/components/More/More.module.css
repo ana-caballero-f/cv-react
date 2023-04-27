@@ -24,12 +24,46 @@
 }
 
 .IdiomasParrafo {
-    /* border: solid rgb(201, 58, 58) 2px; */
     margin: 7px;
 }
 
 .CursosParrafo {
-    /* border: solid rgb(219, 53, 53) 2px; */
     margin: 7px;
 }
 
+
+.CursosItem {
+    animation: slide-left 1s cubic-bezier(0.1, 0.7, 1.0, 1.4) both;
+}
+
+.LanguagesItem {
+    animation: slide-write 1s cubic-bezier(0.1, 0.7, 1.0, 1.4) both;
+    animation-delay: 1.5s;
+}
+
+
+
+/* keyframes para los idiomas (slide de derecha a izquierda */
+@keyframes slide-write {
+    0% {
+      -webkit-transform: translateX(500px);
+              transform: translateX(500px);
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+
+/* keyframes para los cursos (slide de izquierda a derecha */
+  @keyframes slide-left {
+    0% {
+      -webkit-transform: translateX(-500px);
+              transform: translateX(-500px);
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
